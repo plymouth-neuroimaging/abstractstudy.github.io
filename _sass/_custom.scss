@@ -1,0 +1,83 @@
+/* add your scss tweaks here */
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.sidebar-layout {
+    width: 20%;
+    text-align: right;
+
+}
+
+.sidebar a {
+    color: black;
+}
+
+.sidebar ul {
+    line-height: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-layout {
+    width: 80%;
+}
+
+/*for the news section*/
+.blog-row {
+    border: 1px solid #ccc;
+    /* Add an outline or border */
+    padding: 15px;
+    margin-bottom: 20px;
+    /* Add space between rows */
+    display: flex;
+    /* Add space between rows */
+}
+
+/*remove the margins for news*/
+.custom-container {
+    padding: 0;
+    margin: 0;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.brand-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8em;
+    /* adjust as needed */
+}
+
+.navbar-brand img {
+    height: 50px;
+    /* adjust as needed */
+}
+
+.logo-text-color {
+    color: #000000;
+    /* replace with your color */
+}
+
+.my-color {
+    color: #ffffff;
+    /* replace with your color */
+}
+
+#map {
+    height: 350px;
+    width: 500px;
+}
+
+.search-bar {
+    border: 1px solid white;
+    /* Set the border to white */
+    /* Add other styles as needed */
+    color: white;
+    border-color: white;
+    /* Example border color */
+}
