@@ -1,8 +1,9 @@
 ---
 title: People
-parent: Team
+parent: People
 nav: People
 nav_order: 3
+title_color: rgb(255, 255, 255)
 ---
 ## Research team
 
@@ -110,31 +111,6 @@ As a Biostatistician working in clinical trials and studies based on pseudonymis
         {% include person.html name="Adam Streeter" image="/assets/img/Adam_Streeter.jpg"
         introduction=intro_adam_streeter %}
 
-        {% capture intro_marie_jasim %}
-        Dr Marie Jasim is an NIHR Research Associate and an Undergraduate
-        Clinical Teaching Fellow at <a
-        href="https://www.torbayandsouthdevon.nhs.uk/visiting-us/torbay-hospital/">Torbay
-        Hospital</a>. As an Early Career Researcher, she is involved in various
-        local and national neurology studies. Her primary research interest is
-         focused on Functional Neurological Disorders and improving access to
-        healthcare services for this patient cohort.
-        {% endcapture %}
-        {% include person.html name="Marie Jasim" image="/assets/img/Marie_Jasim.jpg"
-        introduction=intro_marie_jasim %}
-        
-
-        {% capture intro_victor_rusu %}
-        Dr Victor Rusu is a Neurology Registrar working at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is currently undergoing the Research Associate scheme from    <a href="https://www.nihr.ac.uk/">NIHR</a>. His primary research interest is focused on Movement Disorders (but also other neurodegenerative conditions), looking at improving the local care delivered to patients with these illnesses and assessing the impact of the current NHS structure (Specialist Neurology clinics in particular) on patient care. 
-        {% endcapture %}
-        {% include person.html name="Victor Rusu" image="/assets/img/Victor_Rusu.jpg"
-        introduction=intro_victor_rusu %}
-
-        {% capture intro_galaleldin_abdelhalim %}
-        Dr Abdelhalim is a Clinical Radiology Speciality Trainee at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in neuroimaging and the applications of machine learning to medical imaging.  He is also interested in research relevant to 
-        <a href="https://pubmed.ncbi.nlm.nih.gov/37005205/">evidence-based practice in interventional radiology</a>.
-        {% endcapture %}
-        {% include person.html name="Galaleldin Abdelhalim" image="/assets/img/Galaleldin_Abdelhalim.jpg"
-        introduction=intro_galaleldin_abdelhalim %}
 
 
     </div>
@@ -165,57 +141,6 @@ As a Biostatistician working in clinical trials and studies based on pseudonymis
         {% include person.html name="Michael Allen" image="/assets/img/Michael_Allen.jpg"
         introduction=intro_michael_allen %}
 
-
-
-
-        {% capture intro_michael_ogara %}
-        Dr O'Gara is a Neurology consultant at <a href="https://www.plymouth.ac.uk/">University of Plymouth</a>.
-        He has specialist interests in Acute Neurology and Functional
-        Neurological Disorders (FND). He runs a specialist clinic in FND,
-        serving patients from around the Southwest. 
-        {% endcapture %}
-        {% include person.html name="Michael O'Gara" image="/assets/img/Mike_Ogara.jpg"
-        introduction=intro_michael_ogara %}
-
-        {% capture intro_stephen_hall %}
-        Stephen is Professor in Human Neuroimaging, with a research focus on the application of multimodal neural measurement approaches to determine the brain mechanisms of cognitive and behavioural function in health and disease. 
-        Stephen’s research career has focussed on developing and integrating anatomical, physiological, and pharmacological approaches to measure and manipulate neural networks. To advance capability in this field of research, he recently developed and established the Brain Research & Imaging Centre (<a href="https://www.plymouth.ac.uk/research/psychology/brain-research-and-imaging-centre">BRIC</a>), a state-of-the-art research facility with cutting-edge human neuroscience research capability, where he is currently the director.
-        {% endcapture %}
-        {% include person.html name="Stephen Hall" image="/assets/img/Stephen_Hall.png"
-        introduction=intro_stephen_hall %}
-
-
-
-        {% capture intro_damjan_veljanoski %}
-        <a href="https://plymouth.ac.uk/staff/damjan-veljanoski">Mr Damjan
-        Veljanoski AFHEA BSc (Hons) MBBS MRCS</a> is an NIHR Academic Clinical
-        Fellow at the UoP and Specialty Trainee (NTN) in Neurosurgery at the
-        UHPNT South West Neurosurgery Centre. He is developing a radiomics
-        pipeline that applies machine learning techniques to the pre-operative
-        MRI scans of patients with brain tumours. Predicting the biological
-        tumour characteristics from imaging has the potential to risk-stratify
-        patients and guide treatment decisions. He has completed an MSc module
-        in Advanced Machine Learning and has attended a leading, international
-        radiomics workshop.
-        {% endcapture %}
-        {% include person.html name="Damjan Veljanoski" image="/assets/img/Damjan_Veljanoski.jpg"
-        introduction=intro_damjan_veljanoski %}
-
-        {% capture intro_ellie_edlmann %}
-        Dr Ellie Edlmann, FRCS Neurosurgery, PhD is a clinical lecturer in
-        Neurosurgery with an academic interest in clinical trials, traumatic
-        brain injury and chronic subdural haematoma. Her clinical focus is
-        neuro-oncology and trauma/head injury management. 
-        {% endcapture %}
-        {% include person.html name="Ellie Edlmann" image="/assets/img/Ellie_Edlmann.jpg"
-        introduction=intro_ellie_edlmann %}
-
-
-        {% capture intro_holly_roy %}
-        Dr Holly Roy is an NIHR clinical lecturer in neurosurgery. During her DPhil she used different modalities including MRI and local field potential recordings to study the neural control of the bladder. She is interested in the role of AI in diagnosing cauda equina syndrome. She is also working on projects around the microbiome in neurosurgical disease and tumour biology.   
-        {% endcapture %}
-        {% include person.html name="Holly Roy" image="/assets/img/Holly_Roy.jpg"
-        introduction=intro_holly_roy %}
     </div>
 </div>
 
