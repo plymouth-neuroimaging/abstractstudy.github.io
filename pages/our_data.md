@@ -1,7 +1,7 @@
 ---
 title: Our Data
 nav: Our Data
-parent: Research
+parent: Projects
 nav_order: 4
 layout: page
 ---

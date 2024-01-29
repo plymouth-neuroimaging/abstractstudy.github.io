@@ -19,69 +19,69 @@
 /* each function to create all the buttons */
 .btn-dark {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ad0000;
+  border-color: #ad0000;
 }
 .btn-dark:hover {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #870000;
+  border-color: #7a0000;
 }
 .btn-dark:focus, .btn-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 38, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(185, 38, 38, 0.5);
 }
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active, .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: black;
-  border-color: black;
+  background-color: #7a0000;
+  border-color: #6d0000;
 }
 .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 38, 38, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(185, 38, 38, 0.5);
 }
 
 .btn-outline-dark {
-  color: #000000;
-  border-color: #000000;
+  color: #ad0000;
+  border-color: #ad0000;
 }
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ad0000;
+  border-color: #ad0000;
 }
 .btn-outline-dark:focus, .btn-outline-dark.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(173, 0, 0, 0.5);
 }
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #000000;
+  color: #ad0000;
   background-color: transparent;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active, .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ad0000;
+  border-color: #ad0000;
 }
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-dark.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(173, 0, 0, 0.5);
 }
 
 /* each function to create text colors */
 .text-dark {
-  color: #000000 !important;
+  color: #ad0000 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
-  color: black !important;
+  color: #610000 !important;
 }
 
 /* each function to create background colors */
 .bg-dark {
-  background-color: #000000 !important;
+  background-color: #ad0000 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: black !important;
+  background-color: #7a0000 !important;
 }
 
 /* 
@@ -190,6 +190,8 @@ a:hover {
 .layout {
   display: flex;
   justify-content: space-between;
+  background-color: rgb(219, 219, 219);
+  /* Replace with your desired color */
   gap: 60px;
 }
 

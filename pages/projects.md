@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-parent: Research
+parent: Projects
 nav: Projects
 nav_order: 5
 ---

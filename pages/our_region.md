@@ -1,6 +1,6 @@
 ---
 title: Our Region
-parent: Research
+parent: Projects
 nav: Our Region
 nav_order: 3
 layout: page

@@ -2,7 +2,7 @@
 layout: page
 title: Opt-out
 nav: Opt-out
-parent: Research
+parent: Projects
 nav_order: 7
 layout: page
 ---
