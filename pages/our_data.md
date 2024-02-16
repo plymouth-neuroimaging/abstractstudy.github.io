@@ -2,24 +2,17 @@
 title: Our Data
 nav: Our Data
 parent: Project
-nav_order: 4
+nav_order: 2
 layout: page
 ---
 
-Our research relies on use of routinely collected data, that is information collected in clinical records and healthcare investigations as part of the delivery of care. This data has the potential to dramatically improve the health of the UK population. We also recognise the key importance of using such data in a transparent, compliant and secure manner. Where it is feasible, we will seek explicit consent from the owners of that data. Where there are good reasons why this is not possible, we use the following processes and principles to ensure use of the data is legal, ethical and serves a genuine public interest:
+ABSTRACT uses of routinely collected data, that is information collected in healthcare records and medical tests as part of the delivery of care. This data has the potential to dramatically improve the health of the UK population, by preventing strokes from occurring. 
 
-### Anonymisation
-All the data which we use will be in anonymised form. All the data we extract from the NHS will be de-identified. We will never knowingly pass data which includes information which can be used to identify the people it relates to outside of the NHS.
 
-### Consultation
-Our projects are co-designed by people with lived experience of the disease. Their views and (where appropriate) the views of the general public are incorporated into our work. We disseminate accessible information about our our projects prior to acquiring any data, to allow people the opportunity to [opt out]({% link pages/optout.md%}) of the use of their data. We will ensure that anyone who has joined the [NHS England data opt out register](https://digital.nhs.uk/services/national-data-opt-out) is not included in our research.
+We recognise the key importance of using such data in a transparent, compliant and secure manner. We have and will continue to consult with stroke survivors, carers and the general public, to ensure that everything we do is in the public interest. The project has been reviewed and approved by a [local](https://www.plymouth.ac.uk/research/governance/research-ethics-policy) (University of Plymouth) and [national](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/research-ethics-committee-review/) (Health Research Authority) ethical review board. It is overseen by a study oversight committee, made up of stroke survivors, carers of stroke survivors, researchers, medical professionals and members of the general public.  
 
-### Ethical approval
-All our research is reviewed and approved by a [local](https://www.plymouth.ac.uk/research/governance/research-ethics-policy) (University of Plymouth) and [national](https://www.hra.nhs.uk/approvals-amendments/what-approvals-do-i-need/research-ethics-committee-review/) (Health Research Authority) ethical review board. Where our projects involve the transfer of identifiable data outside of the routine care team, data is reviewed by the [Confidentiality Advisory Group](https://www.hra.nhs.uk/about-us/committees-and-services/confidentiality-advisory-group/) of the Health Research Authority. 
 
-### Data minimisation
-We will always use the minimum amount of data we require to deliver the aims of the project.
+All the data which we use will be in anonymised form and will be kept completely secure at all times. All the data we extract from the NHS will be de-identified. We will never knowingly pass on data which includes information which can be used to identify people. For the vast majority of the project, we will only handle identifiable data within the routine care team (the team that would normally have access to it). Where it is necessary to link data from different NHS organizations, we will first ask permission from [Confidentiality Advisory Group](https://www.hra.nhs.uk/about-us/committees-and-services/confidentiality-advisory-group/) of the Health Research Authority to do so and will ensure the minimum amount of identifiable data is used.  
 
-### Data security
 
-When extracting identifiable patient data, where possible we will collate and link our databases within the routine care team (the people who would have access to that data as part of their role in delivering clinical care). This is possible because many of our team have combined roles as researchers and NHS professionals. All identifiable data (data which contains information such as name or date of birth) is handled solely on NHS computer systems. Before data is passed to University researchers (or in some cases, if relevant governance and patient/public consultation is in place, external partners), it is fully deidentified and audited, to ensure it is not possible to identify individual subjects within it. 
+We will ensure that people have the opportunity to [opt out]({%link pages/optout.md%}) of the use of their data for this research project. We will ensure that anyone who has joined the [NHS England data opt out register](https://digital.nhs.uk/services/national-data-opt-out) is not included in our research.

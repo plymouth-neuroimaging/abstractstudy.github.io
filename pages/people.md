@@ -1,8 +1,8 @@
 ---
 title: People
-parent: People
+parent: Team
 nav: People
-nav_order: 3
+nav_order: 6
 title_color: rgb(255, 255, 255)
 ---
 ## Research team
