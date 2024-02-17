@@ -165,3 +165,13 @@ main {
     color: #ffffff;
     margin: 5%;
 }
+
+
+/* CSS to make dropdown menus open on hover */
+@media (min-width: 992px) {
+
+    /* Adjusts for devices with widths 992px and up, similar to Bootstrap's navbar-expand-lg */
+    .navbar .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}

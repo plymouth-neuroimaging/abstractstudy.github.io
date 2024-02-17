@@ -46,8 +46,6 @@
                         </a>
                         <div class="dropdown-menu bg-dark my-color" aria-labelledby="navbarDropdown">
                             {% for page in pages %}
-
-
                             {% if page.link_to_external %}
                             <a class="dropdown-item my-color" href="{{ page.link_to_external }}">{{ page.nav }}</a>
                             {% else %}
