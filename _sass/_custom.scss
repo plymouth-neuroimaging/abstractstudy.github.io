@@ -195,8 +195,12 @@ main {
 }
 
 .navbar .nav-link:hover {
-    border-bottom: 2px solid #800000;
+    border-bottom: 2px solid #5f0000;
     /* Makes the underline thicker and blue */
     padding-bottom: 1px;
     /* Increases distance from the text */
+}
+
+.colorpicker {
+    color: #8a0000
 }
