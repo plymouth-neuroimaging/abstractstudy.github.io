@@ -66,6 +66,15 @@ main {
     /* adjust as needed */
 }
 
+.navbar .nav-link {
+    font-size: 18px;
+    /* Larger text size */
+    margin-right: 30px;
+    /* More space between items */
+    padding: 5px 15px;
+    /* Optional: Adjust if you want to change the vertical space inside the items */
+}
+
 .logo-text-color {
     color: #000000;
     /* replace with your color */
@@ -174,4 +183,20 @@ main {
     .navbar .nav-item.dropdown:hover .dropdown-menu {
         display: block;
     }
+}
+
+
+
+.navbar .dropdown-menu {
+    border: none;
+    /* Removes the border */
+    /* Optional: if there's a box-shadow you want to remove as well */
+    box-shadow: none;
+}
+
+.navbar .nav-link:hover {
+    border-bottom: 2px solid #a8a8a8;
+    /* Makes the underline thicker and blue */
+    padding-bottom: 1px;
+    /* Increases distance from the text */
 }

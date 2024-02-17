@@ -7,6 +7,7 @@
 
 /* Color contrast function from Bootstrap */
 $yiq-contrasted-threshold: 150 !default;
+
 $yiq-text-dark: #212529 !default;
 $yiq-text-light: #fff !default;
 
@@ -15,15 +16,17 @@ $yiq-text-light: #fff !default;
     $g: green($color);
     $b: blue($color);
 
-    $yiq: ((($r * 299) + ($g * 587) + ($b * 114)) / 1000);
+    $yiq: (
+        (($r * 299) + ($g * 587) + ($b * 114)) / 1000
+    );
 
-    @if ($yiq >=$yiq-contrasted-threshold) {
-        @return $dark;
-    }
+@if ($yiq >=$yiq-contrasted-threshold) {
+    @return $dark;
+}
 
-    @else {
-        @return $light;
-    }
+@else {
+    @return $light;
+}
 }
 
 /* mixin to generate buttons */
