@@ -107,6 +107,7 @@ main {
     grid-template-rows: repeat(4, 11vw);
     grid-gap: 5px;
 
+
 }
 
 
@@ -186,7 +187,7 @@ main {
         grid-column-end: auto;
         grid-row-start: auto;
         grid-row-end: auto;
-        margin-top: 0;
+        margin-top: -15px;
     }
 
     .gallery__item--5 {
@@ -196,6 +197,7 @@ main {
         /* Optional: Adjust background */
         margin-bottom: 16px;
         /* Adjust margin */
+
     }
 
 
