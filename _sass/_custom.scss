@@ -192,6 +192,9 @@ main {
     /* Removes the border */
     /* Optional: if there's a box-shadow you want to remove as well */
     box-shadow: none;
+    margin-top: 0;
+    /* Removes any margin between the dropdown button and the menu */
+
 }
 
 .navbar .nav-link:hover {
