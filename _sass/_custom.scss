@@ -275,7 +275,7 @@ time line
     background-color: rgb(0, 0, 0);
     top: 0;
     bottom: 0;
-    left: 70px;
+    left: 60px;
     /* Previously 0, now moved 100px to the right */
     margin-left: 40px;
     /* Increase margin-left to move timeline to the right */
@@ -283,12 +283,12 @@ time line
 
 /* Container around content */
 .timeline-container {
-    padding: 10px 40px;
+    padding: 10px 10px;
     position: relative;
     background-color: inherit;
     width: calc(100% - 80px);
     /* Adjust width considering timeline width */
-    margin-left: 70px;
+    margin-left: 90px;
     /* Adjust left margin to position content to the right of the timeline */
 }
 
@@ -298,7 +298,7 @@ time line
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 10px;
+    left: -20px;
     /* Adjust if needed based on new timeline position */
     background-color: #ffffff;
     border: 6px solid #000000;
@@ -404,8 +404,41 @@ infographic
 
 }
 
+.infogrphic-r11 {
+    width: 33%
+}
+
+.infogrphic-r12 {
+    width: 33%
+}
+
+.infogrphic-r13 {
+    width: 34%
+}
+
+.infogrphic-r21 {
+    width: 40%
+}
+
+.infogrphic-r22 {
+    width: 60%
+}
+
 @media (max-width: 768px) {
-    .infographic-section {
+    .infographic-row {
         flex-direction: column;
     }
+
+    .infographic-section {
+        width: 100%;
+    }
+
+    .timeline-content-title {
+        font-size: 21px;
+        font-weight: bold;
+        align-items: left;
+
+    }
+
+
 }
