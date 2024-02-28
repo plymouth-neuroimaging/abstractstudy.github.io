@@ -263,6 +263,7 @@ time line
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: #8b8b8b;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -273,7 +274,7 @@ time line
     background-color: rgb(0, 0, 0);
     top: 0;
     bottom: 0;
-    left: 80px;
+    left: 60px;
     /* Previously 0, now moved 100px to the right */
     margin-left: 40px;
     /* Increase margin-left to move timeline to the right */
@@ -281,12 +282,12 @@ time line
 
 /* Container around content */
 .timeline-container {
-    padding: 10px 40px;
+    padding: 10px 10px;
     position: relative;
     background-color: inherit;
     width: calc(100% - 80px);
     /* Adjust width considering timeline width */
-    margin-left: 80px;
+    margin-left: 90px;
     /* Adjust left margin to position content to the right of the timeline */
 }
 
@@ -296,10 +297,10 @@ time line
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 30px;
+    left: -20px;
     /* Adjust if needed based on new timeline position */
-    background-color: rgb(0, 0, 0);
-    border: 4px solid #af1e1e;
+    background-color: #ffffff;
+    border: 6px solid #000000;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -308,11 +309,11 @@ time line
 
 .timeline-date {
     position: absolute;
-    left: -100px;
+    left: -110px;
     /* Adjust based on actual layout */
     top: 3px;
     /* Adjust to align with the center of the circle */
-    color: #af1e1e;
+    color: #ffffff;
     /* Date text color */
     font-size: 20px;
     /* Adjust as needed */
@@ -327,4 +328,148 @@ time line
     color: rgb(0, 0, 0);
     position: relative;
     border-radius: 6px;
+
+}
+
+
+/***
+
+infographic
+
+***/
+
+.infographic-section {
+    /* Change the background color as needed */
+    padding: 20px;
+    text-align: justify;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #353535;
+
+}
+
+.infographic-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.infographic-sub-row {
+    display: flex;
+}
+
+.infographic-sub-section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.infographic-section img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    /* Add border with color and width */
+}
+
+
+
+.icon-array {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 columns */
+    grid-auto-rows: auto;
+    /* Automatically adjust row height based on content */
+    justify-content: center;
+    /* Center the grid horizontally */
+    gap: 10px;
+    /* Adjust the gap between icons */
+    font-size: 30px;
+    margin: 10px;
+}
+
+.icon-array i {
+    width: 100%;
+    /* Ensure icons take full width of their grid cell */
+}
+
+.icon-array-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    text-align: center;
+    /* Center text */
+
+}
+
+.infogrphic-r11 {
+    width: 33%
+}
+
+.infogrphic-r12 {
+    width: 33%
+}
+
+.infogrphic-r13 {
+    width: 34%
+}
+
+.infogrphic-r21 {
+    width: 40%
+}
+
+.infogrphic-r22 {
+    width: 60%
+}
+
+.logo-left-15 {
+    left: 4%;
+    position: relative;
+}
+
+.logo-left-10 {
+    left: 3%;
+    position: relative;
+}
+
+
+.logo-row {
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .infographic-row {
+        flex-direction: column;
+    }
+
+    .infographic-section {
+        width: 100%;
+    }
+
+    .timeline-content-title {
+        font-size: 21px;
+        font-weight: bold;
+        align-items: left;
+
+    }
+
+    .logo-row {
+        align-items: center;
+    }
+
+
+    .logo-row .col-md-4 {
+        text-align: center;
+    }
+
+    .logo-left-15 {
+        left: 0%;
+        position: relative;
+    }
+
+    .logo-left-10 {
+        left: 0%;
+        position: relative;
+    }
 }
