@@ -2,28 +2,13 @@
 title: People
 parent: Team
 nav: People
-nav_order: 6
+nav_order: 5
 title_color: rgb(255, 255, 255)
 ---
 ## Research team
 
 <div class="container custom-container">
     <div class="row">
-        {% capture intro_mark_thurston %}
-        Dr Mark Thurston is a consultant musculoskeletal radiologist at <a
-        href="https://www.plymouthhospitals.nhs.uk/imaging">University
-        Hospitals Plymouth NHS Trust (UHPNT)</a> and Clinical Lecturer at <a
-        href="https://www.plymouth.ac.uk/staff/mark-thurston">University of
-        Plymouth (UoP)</a>. His research interests focus on the medical imaging
-        applications of computer vision techniques. He has published numerous
-        peer-reviewed publications on categorisation of medical imaging
-        investigations including CT, X-rays and nuclear medicine scans. He is a
-        member of the <a
-        href="https://www.nihr.ac.uk/explore-nihr/innovation-areas/imaging.htm">National
-        Institute of Health Research (NIHR) imaging group</a>.
-        {% endcapture %}
-        {% include person.html name="Mark Thurston" image="/assets/img/Mark_Thurston.jpg" introduction=intro_mark_thurston %}
-
         {% capture intro_stephen_mullin %}
         Dr Stephen Mullin is <a
         href="https://www.plymouth.ac.uk/staff/stephen-mullin">Associate
@@ -46,21 +31,6 @@ title_color: rgb(255, 255, 255)
         {% include person.html name="Stephen Mullin" image="/assets/img/Stephen_Mullin.jpg" 
         introduction=intro_stephen_mullin %}
 
-        {% capture intro_emmanuel_ifeachor %}
-                <a href="https://www.plymouth.ac.uk/staff/emmanuel-ifeachor">Emmanuel Ifeachor</a>
-  is a Professor of Intelligent Electronic Systems at the UoP. He is an electronics and biomedical engineer and 
-a computer scientist.   His primary research interests and expertise are in the development of Artificial Intelligence (AI) and 
-signal processing techniques and their applications in disease detection, diagnosis and decision support.  He has published extensively 
-in these areas.
-His current research focus involves the development of deep learning and explainable AI methods to detect key 
-changes in routine data for predictive and personalized care in Parkinson, dementia, brain tumour, stroke,
-tuberculosis and autism.
-Professor Ifeachor is also a member of the <a href="https://www.plymouth.ac.uk/research/big-data-group">Big Data Group</a> and <a href="https://www.plymouth.ac.uk/research/nanotechnology-electronics">Nanotechnology and Electronics Research Group</a> 
-at UoP.
-        {% endcapture %}
-        {% include person.html name="Emmanuel Ifeachor" image="/assets/img/Emmanual_Ifeachor.jpg"
-        introduction=intro_emmanuel_ifeachor %}
-
 
         {% capture intro_megan_courtman %}
         <a href="https://www.plymouth.ac.uk/staff/megan-courtman">Megan Courtman</a> is
@@ -77,6 +47,7 @@ at UoP.
         {% endcapture %}
         {% include person.html name="Megan Courtman" image="/assets/img/Megan_Courtman.jpg"
         introduction=intro_megan_courtman %}
+
 
 
         {% capture intro_aishwarya_kasabe %}
@@ -98,12 +69,62 @@ at UoP.
         introduction=intro_hongrui_wang %}
 
 
+
         {% capture intro_william_heseltine_carp%}
         Dr William Heseltine-Carp is an NIHR Academic Clinical Fellow in neurology at 
         <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. His previous research has focused on the roles of neuro-inflammation in functional neurological disorders. His work now focuses on a UKRI MRC approved project in using machine learning to predict the future risk of stroke, from routinely collected hospital data. 
         {% endcapture %}
         {% include person.html name="William Heseltine-Carp" image="/assets/img/William Heseltine-Carp.jpg"
         introduction=intro_william_heseltine_carp %}
+        
+
+        {% capture intro_mark_thurston %}
+        Dr Mark Thurston is a consultant musculoskeletal radiologist at <a
+        href="https://www.plymouthhospitals.nhs.uk/imaging">University
+        Hospitals Plymouth NHS Trust (UHPNT)</a> and Clinical Lecturer at <a
+        href="https://www.plymouth.ac.uk/staff/mark-thurston">University of
+        Plymouth (UoP)</a>. His research interests focus on the medical imaging
+        applications of computer vision techniques. He has published numerous
+        peer-reviewed publications on categorisation of medical imaging
+        investigations including CT, X-rays and nuclear medicine scans. He is a
+        member of the <a
+        href="https://www.nihr.ac.uk/explore-nihr/innovation-areas/imaging.htm">National
+        Institute of Health Research (NIHR) imaging group</a>.
+        {% endcapture %}
+        {% include person.html name="Mark Thurston" image="/assets/img/Mark_Thurston.jpg" introduction=intro_mark_thurston %}
+
+
+
+
+        {% capture intro_dan_browning %}
+        Daniel Browning is a Senior Physician Associate and Nurse Prescriber working in Neurology and Acute Stroke at <a href="https://www.plymouthhospitals.nhs.uk/">University Hospitals Plymouth NHS Trust (UHPNT)</a>. He is interested in primary and secondary prevention of stroke with current experience of working within a hyperacute stroke unit as well as prior experience with acute coronary syndromes.
+        {% endcapture %}
+        {% include person.html name="Dan Browning" image="/assets/img/Dan_Browning.jpg"
+        introduction=intro_dan_browning %}
+
+
+
+
+
+        {% capture intro_emmanuel_ifeachor %}
+                <a href="https://www.plymouth.ac.uk/staff/emmanuel-ifeachor">Emmanuel Ifeachor</a>
+  is a Professor of Intelligent Electronic Systems at the UoP. He is an electronics and biomedical engineer and 
+a computer scientist.   His primary research interests and expertise are in the development of Artificial Intelligence (AI) and 
+signal processing techniques and their applications in disease detection, diagnosis and decision support.  He has published extensively 
+in these areas.
+His current research focus involves the development of deep learning and explainable AI methods to detect key 
+changes in routine data for predictive and personalized care in Parkinson, dementia, brain tumour, stroke,
+tuberculosis and autism.
+Professor Ifeachor is also a member of the <a href="https://www.plymouth.ac.uk/research/big-data-group">Big Data Group</a> and <a href="https://www.plymouth.ac.uk/research/nanotechnology-electronics">Nanotechnology and Electronics Research Group</a> 
+at UoP.
+        {% endcapture %}
+        {% include person.html name="Emmanuel Ifeachor" image="/assets/img/Emmanual_Ifeachor.jpg"
+        introduction=intro_emmanuel_ifeachor %}
+
+
+
+
+
 
         {% capture intro_adam_streeter %}
 As a Biostatistician working in clinical trials and studies based on pseudonymised electronic patient records, in <a href="https://www.plymouth.ac.uk/staff/adam-streeter">Plymouth</a> and in <a href="https://www.medizin.uni-muenster.de/epi/institut/mitarbeiter/adam-streeter-msc-applied-statistics-phd.html">Münster</a>, Adam Streeter’s focus has been on best practice in data protection and utilising available data to maximise their benefit to the patient. As a chief investigator on his own study (<a href="https://fundingawards.nihr.ac.uk/award/NIHR202012">STOPFlu</a>), he incorporated patient-public involvement into the research team. Having worked previously with Stephen Mullin and his team, Adam is keen to contribute to their ground-breaking research for predicting, and ultimately preventing, strokes. He brings with him experience in handling electronic health data and in their statistical analysis.
