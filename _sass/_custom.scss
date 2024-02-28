@@ -332,6 +332,10 @@ time line
 
 }
 
+/* Default style for the narrow screen */
+.narrow-screen {
+    display: none;
+}
 
 /***
 
@@ -439,6 +443,8 @@ infographic
     align-items: center;
 }
 
+
+
 @media (max-width: 768px) {
     .infographic-row {
         flex-direction: column;
@@ -473,4 +479,79 @@ infographic
         left: 0%;
         position: relative;
     }
+
+
+
+
+
+
+
+    /* The actual timeline (the vertical ruler) */
+    .timeline::after {
+
+        left: 0px;
+        /* Previously 0, now moved 100px to the right */
+        margin-left: 10px;
+        /* Increase margin-left to move timeline to the right */
+    }
+
+    /* Container around content */
+    .timeline-container {
+        padding: 10px 10px;
+        position: relative;
+        background-color: inherit;
+        width: calc(100%);
+        /* Adjust width considering timeline width */
+        margin-left: 0px;
+        /* Adjust left margin to position content to the right of the timeline */
+        margin-top: 30px;
+    }
+
+    .timeline-container::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: -20px;
+        /* Adjust if needed based on new timeline position */
+        background-color: #ffffff;
+        border: 6px solid #000000;
+        top: -10px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+
+    .timeline-date {
+        position: absolute;
+        left: 0px;
+        /* Adjust based on actual layout */
+        top: -30px;
+        /* Adjust to align with the center of the circle */
+        color: #ffffff;
+        /* Date text color */
+        font-size: 20px;
+        /* Adjust as needed */
+        /* Optionally add more styling here */
+    }
+
+
+    /* The actual content */
+    .timeline-content {
+        padding: 20px 30px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        position: relative;
+        border-radius: 6px;
+
+    }
+
+    .timeline-date .narrow-screen {
+        display: inline;
+    }
+
+    .timeline-date .wide-screen {
+        display: none;
+    }
+
 }
