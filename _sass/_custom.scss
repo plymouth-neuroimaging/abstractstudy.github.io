@@ -424,6 +424,21 @@ infographic
     width: 60%
 }
 
+.logo-left-15 {
+    left: 4%;
+    position: relative;
+}
+
+.logo-left-10 {
+    left: 3%;
+    position: relative;
+}
+
+
+.logo-row {
+    align-items: center;
+}
+
 @media (max-width: 768px) {
     .infographic-row {
         flex-direction: column;
@@ -440,5 +455,22 @@ infographic
 
     }
 
+    .logo-row {
+        align-items: center;
+    }
 
+
+    .logo-row .col-md-4 {
+        text-align: center;
+    }
+
+    .logo-left-15 {
+        left: 0%;
+        position: relative;
+    }
+
+    .logo-left-10 {
+        left: 0%;
+        position: relative;
+    }
 }
