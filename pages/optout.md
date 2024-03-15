@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Opt-out/in
-nav: Opt-out/in
+title: Opt-out / opt-in
+nav: Opt-out / opt-in
 parent: Project
 nav_order: 4
 layout: page
@@ -11,10 +11,10 @@ ABSTRACT  complies with the [highest standard of data protection](https://sustai
 
 
 
-If you would like to opt-out of ABSTRACT or if you already opt-out but want to opt-in ABSTRACT, please send an email to
+If you would like to opt-out of ABSTRACT or if you have opted-out before but would like to opt-in ABSTRACT, please send an email to
 [plh-tr.researchdataoptout@nhs.net](mailto:plh-tr.researchdataoptout@nhs.net?subject=Opt-out) containing the following information:
 
-- Choose opt-out or opt-in
+- Specifying opt-out or opt-in
 
 - Name
 
