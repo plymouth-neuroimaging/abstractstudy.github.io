@@ -554,3 +554,30 @@ infographic
     }
 
 }
+
+
+
+.social-media-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    /* Pushes the icons to the bottom */
+}
+
+.social-media-icons {
+
+    display: flex;
+    /* This will enable flexbox for the container */
+    align-items: center;
+    /* Align items vertically in the center */
+    justify-content: start;
+    /* Align items to the start of the container */
+    flex-direction: row;
+    /* Ensures the items are laid out in a row */
+}
+
+
+.social-media-icons p {
+    margin: 0 10px 0 0;
+    font-size: 18px;
+    /* Adjusts spacing around the paragraph. Remove right margin if not needed */
+}
